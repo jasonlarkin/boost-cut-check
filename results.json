@@ -1,0 +1,20 @@
+{
+  "checkpoint_file": "track1_boostcut_final.pt",
+  "checkpoint_sha256": "499dff9fb4d3fcb4fcc5b6c5475ecf5443295462f572c04ed4312605c5bcbcea",
+  "val_pt_token_sha256": "5fdb9242ce8ab83e519ab5dd5cf8d64f4d8a99f6e74c137f4ca0f723da5f7437",
+  "train_pt_token_sha256": "36ccb57eba6f5474b18acf99edd4a4793187260f7da7cc7053322cce59154bde",
+  "val_pt_shape": [544, 2049],
+  "train_pt_shape": [4880, 2049],
+  "val_rows": 544,
+  "batch_size": 16,
+  "steps": 34,
+  "predictions": 1114112,
+  "stored_result_json_val_loss": 3.9448118209838867,
+  "recomputed_val_loss": 3.9447997878579533,
+  "difference_stored_minus_recomputed": 1.2033125933452737e-05,
+  "recomputed_wall_seconds": 92.02,
+  "device": "Tesla T4",
+  "torch": "2.11.0+cu130",
+  "noise_commit": "7749eb125f40f634472fb59bb88022e4d8da429d",
+  "eval_script": "utils/eval.py"
+}
